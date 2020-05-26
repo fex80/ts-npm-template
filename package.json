@@ -4,6 +4,13 @@
   "description": "<DESCRIPTION>",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "sideEffects": false,  
   "scripts": {
     "build": "gulp",
     "test": "node_modules/.bin/jest --passWithNoTests",
