@@ -1,7 +1,7 @@
 {
-  "name": "@fex80/html-highlight",
+  "name": "<NAME>",
   "version": "1.0.0",
-  "description": "Adds <span> tags to html content at specified positions – useful to highlight search results.",
+  "description": "<DESCRIPTION>",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -18,14 +18,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/fex80/html-highlight.git"
+    "url": "git+ssh://git@github.com/fex80/<XXXX>.git"
   },
   "author": "Felix Alcala",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fex80/html-highlight/issues"
+    "url": "https://github.com/fex80/<XXXX>/issues"
   },
-  "homepage": "https://github.com/fex80/html-highlight#readme",
+  "homepage": "https://github.com/fex80/<XXXX>#readme",
   "devDependencies": {
     "@types/jest": "^25.2.3",
     "@typescript-eslint/eslint-plugin": "^3.0.1",
