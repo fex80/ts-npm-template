@@ -1,5 +1,5 @@
 {
-  "name": "<NAME>",
+  "name": "@fex80/<NAME>",
   "version": "1.0.0",
   "description": "<DESCRIPTION>",
   "main": "dist/index.js",
