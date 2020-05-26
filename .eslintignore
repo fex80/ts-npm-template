@@ -1,0 +1,11 @@
+.eslintrc.js
+jest.config.js
+webpack.config.js
+dist/
+node_modules/
+coverage/
+data/
+Gruntfile.js
+public/js
+gulpfile*.js
+src/**/*.js

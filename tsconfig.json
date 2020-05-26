@@ -1,0 +1,23 @@
+{
+  "include": [
+    "./src"
+  ],
+  "exclude": [
+    "*.js"
+  ],
+  "compilerOptions": {
+    "lib": [
+      "ES2015"
+    ],
+    "outDir": "./dist",
+    "module": "CommonJS",
+    "target": "es2015",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "sourceMap": false,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true
+  }
+}

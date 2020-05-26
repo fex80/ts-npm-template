@@ -1,0 +1,13 @@
+{
+  "extends": "../tsconfig",
+  "include": [
+    "."
+  ],
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "es2019",
+    "noEmit": true,
+    "strictNullChecks": false,
+    "incremental": false
+  }
+}

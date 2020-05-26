@@ -1,0 +1,41 @@
+{
+  "name": "@fex80/html-highlight",
+  "version": "1.0.0",
+  "description": "Adds <span> tags to html content at specified positions – useful to highlight search results.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "gulp",
+    "test": "node_modules/.bin/jest --passWithNoTests",
+    "tdd": "node_modules/.bin/jest --watch",
+    "lint": "node_modules/.bin/eslint --ext js,ts .",
+    "lintfix": "npm run lint -- --fix",
+    "prepare": "npm run build && npm run lint && npm test",
+    "prepublishOnly": "",
+    "preversion": "npm run prepare && npm outdated || true",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fex80/html-highlight.git"
+  },
+  "author": "Felix Alcala",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fex80/html-highlight/issues"
+  },
+  "homepage": "https://github.com/fex80/html-highlight#readme",
+  "devDependencies": {
+    "@types/jest": "^25.2.3",
+    "@typescript-eslint/eslint-plugin": "^3.0.1",
+    "@typescript-eslint/eslint-plugin-tslint": "^3.0.1",
+    "@typescript-eslint/parser": "^3.0.1",
+    "del": "^5.1.0",
+    "eslint": "^7.1.0",
+    "gulp": "^4.0.2",
+    "jest": "^26.0.1",
+    "ts-jest": "^26.0.0",
+    "typescript": "^3.9.3"
+  }
+}
